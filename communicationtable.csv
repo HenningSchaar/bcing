@@ -1,27 +1,74 @@
-,,Regie,Bimi,LDS,ABLF,TRG 1,TG 2,kom,Tech 1,Tech 2,AL,Cam 1,Cam 2,Cam 3,mod,Act 1,Act 2,Act 3,Act 4,Act 5,MAZ Server,Band,Saal
-Regie,19 Zoll,,,,,,,,,,,,,,IFB,IFB,IFB,IFB,IFB,IFB,,,
-Bimi,19 Zoll,,,,,,,,,,,,,,,,,,,,,,
-LDS,19 Zoll,,,,,,,,,,,,,,,,,,,,,,
-ABLF,19 Zoll,,,,,,,,,,,,,,,,,,,,,,
-Tonregie TV,19 Zoll,<>,,,,,,,,,,,,,,,,,,,,,
-Tonregie Musik,19 Zoll,,,,,,,,,,,,,,,,,,,,,,
-Kommentator,Desktop,,,,,,,,,,,,,,,IFB <,IFB,IFB,IFB,IFB,,,W
-Tech 1,Bolero,,,,,,,,,,,,,,,,,,,,,,
-Tech 2,Bolero,,,,,,,,,,,,,,,,,,,,,,
-AL,Bolero,,,,,,,,,,,,,,,,,,,,,,
-Cam 1,4w (Aes67),,,,,,,,,,,,,,,,,,,,,,
-Cam 2,4w (Aes67),,,,,,,,,,,,,,,,,,,,,,
-Cam 3,4w (Aes67),,,,,,,,,,,,,,,,,,,,,,
-Mod,4w (Aes67),,,,,,,,,,,,,,,,,,,,,,
-Actor 1,4w (Aes67),,,,,,,,,,,,,,,,,,,,,,
-Actor 2,4w (Aes67),,,,,,,,,,,,,,,,,,,,,,
-Actor 3,4w (Aes67),,,,,,,,,,,,,,,,,,,,,,
-Actor 4,4w (Aes67),,,,,,,,,,,,,,,,,,,,,,
-Actor 5,4w (Aes67),,,,,,,,,,,,,,,,,,,,,,
-MAZ/Server,Desktop,,,,,,,,,,,,,,,,,,,,,,
-PGM IFB Mod,4w MADI,,,,,,,,,,,,,,,,,,,,,,
-PGM IFB Act 1,4w MADI,,,,,,,,,,,,,,,,,,,,,,
-PGM IFB Act 2,4w MADI,,,,,,,,,,,,,,,,,,,,,,
-PGM IFB Act 3,4w MADI,,,,,,,,,,,,,,,,,,,,,,
-PGM IFB Act 4,4w MADI,,,,,,,,,,,,,,,,,,,,,,
-PGM IFB Act 5,4w MADI,,,,,,,,,,,,,,,,,,,,,,
+;;Regie;Bimi;LDS;ABLF;TRG TV;TRG MU;kom;Tech 1;Tech 2;AL;Cam 1;Cam 2;Cam 3;mod;Act 1;Act 2;Act 3;Act 4;Act 5;MAZ Server;Band;Saal;
+Regie;19 Zoll;-;x;x;x;x;x;x;x;x;x;x;x;x;IFB;IFB;IFB;IFB;IFB;IFB;x;x;x;
+Bimi;19 Zoll;x;-;x;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;
+LDS;19 Zoll;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;
+ABLF;19 Zoll;x;x;-;-;-;-;x;x;x;x;-;-;-;x;x;x;x;x;x;x;x;-;
+Tonregie TV;19 Zoll;x;-;-;x;-;x;x;x;x;x;-;-;-;-;-;-;-;-;-;x;x;-;
+Tonregie Musik;19 Zoll;x;-;-;-;x;-;-;x;x;-;-;-;-;-;-;-;-;-;-;x;x;-;
+Kommentator (root audio A16D16);Desktop;x;-;-;x;-;-;-;-;-;x;-;-;-;-;IFB über 90er;IFB über 90er;IFB über 90er;IFB über 90er;IFB über 90er;-;-;2ter Kanal;
+Tech 1;Bolero;-;-;-;-;x;x;-;-;x;-;-;-;-;-;-;-;-;-;-;x;x;-;
+Tech 2;Bolero;-;-;-;-;x;x;-;x;-;-;-;-;-;-;-;-;-;-;-;x;x;-;
+AL;Bolero;x;-;-;x;-;-;x;-;-;-;-;-;-;x;-;-;-;-;-;x;x;-;
+Cam 1;4w (Aes67);x;x;-;-;-;-;-;-;-;-;-;x;x;-;-;-;-;-;-;-;-;-;
+Cam 2;4w (Aes67);x;x;-;-;-;-;-;-;-;-;x;-;x;-;-;-;-;-;-;-;-;-;
+Cam 3;4w (Aes67);x;x;-;-;-;-;-;-;-;-;x;x;-;-;-;-;-;-;-;-;-;-;
+Mod;4w (Aes67);x;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;
+Actor 1;4w (Aes67);-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;
+Actor 2;4w (Aes67);-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;
+Actor 3;4w (Aes67);-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;
+Actor 4;4w (Aes67);-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;
+Actor 5;4w (Aes67);-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;
+MAZ/Server;Desktop;x;-;-;x;x;-;-;-;-;x;-;-;-;-;-;-;-;-;-;-;-;-;
+PGM IFB Mod;4w MADI;;;;;;;;;;;;;;;;;;;;;-;;
+PGM IFB Act 1;4w MADI;;;;;;;;;;;;;;;;;;;;;;-;
+PGM IFB Act 2;4w MADI;;;;;;;;;;;;;;;;;;;;;;-;
+PGM IFB Act 3;4w MADI;;;;;;;;;;;;;;;;;;;;;;-;
+PGM IFB Act 4;4w MADI;;;;;;;;;;;;;;;;;;;;;;;
+PGM IFB Act 5;4w MADI;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;Audio Tech;Audio Produktion;Bild Regie;Saal;Kamera
+Regie;-;x;x;x;x
+Bimi;-;-;x;x;
+LDS;-;-;;;
+ABLF;-;-;x;x;
+Tonregie TV;x;x;-;;
+Tonregie Musik;x;x;-;;
+Kommentator (root audio A16D16);-;-;-;;
+Tech 1;x;x;-;x;
+Tech 2;x;x;-;x;
+AL;-;x;x;x;
+Cam 1;-;-;-;;x
+Cam 2;-;-;-;;x
+Cam 3;-;-;-;;x
+Mod;-;-;-;;
+Actor 1;-;-;-;;
+Actor 2;-;-;-;;
+Actor 3;-;-;-;;
+Actor 4;-;-;-;;
+Actor 5;-;-;-;;
+MAZ/Server;-;-;-;;
+SUPER;-;x;x;;x
+
+;ALL;Künstler;;;
+Regie;<>;>;;;
+Bimi;<;;;;
+LDS;<;;;;
+ABLF;<;;;;
+Tonregie TV;<;;;;
+Tonregie Musik;<;;;;
+Kommentator (root audio A16D16);<;;;;
+Tech 1;<;;;;
+Tech 2;<;;;;
+AL;<;;;;
+Cam 1;<;;;;
+Cam 2;<;;;;
+Cam 3;<;;;;
+Mod;<;<;;;
+Actor 1;<;<;;;
+Actor 2;<;<;;;
+Actor 3;<;<;;;
+Actor 4;<;<;;;
+Actor 5;<;<;;;
+MAZ/Server;<;;;;
+SUPER;<>;<;;;
